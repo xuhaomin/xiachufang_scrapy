@@ -8,7 +8,7 @@ import threading
 from multiprocessing import Pool
 import os
 
-import config
+from . import config
 
 logger = logging.getLogger(__name__)
 

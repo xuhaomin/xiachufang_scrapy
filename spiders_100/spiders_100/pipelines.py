@@ -5,7 +5,8 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 import MySQLdb
-import config
+
+from .config  import DB_xiachufang
 
 class Spiders100Pipeline(object):
     def __init__(self):

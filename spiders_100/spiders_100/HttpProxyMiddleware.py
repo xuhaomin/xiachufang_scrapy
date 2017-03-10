@@ -36,7 +36,7 @@ class HttpProxyMiddleware(object):
         '''
 
         #初始化总表
-        self.url = "www.lagou.com"  #代理认证的url
+        self.url = "www.xiachufang.com"  #代理认证的url
 
         self.proxyes = []
         my_proxy = proxyGet(self.url)

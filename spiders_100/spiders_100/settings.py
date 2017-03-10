@@ -55,8 +55,8 @@ CONCURRENT_REQUESTS_PER_IP = 40
 DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware':None,
     'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware': 135,
-    'spiders_100.HttpProxyMiddleware.HttpProxyMiddleware': None,
-    'spiders_100.AttrMiddleware.AttrMiddleware': None,
+    'spiders_100.HttpProxyMiddleware.HttpProxyMiddleware': 555,
+
 }
 
 # Enable or disable extensions
