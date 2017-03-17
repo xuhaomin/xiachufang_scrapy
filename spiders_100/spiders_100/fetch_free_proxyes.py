@@ -229,6 +229,6 @@ if __name__ == '__main__':
     root_logger.addHandler(stream_handler)
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)
-    my_proxy = proxyGet('http://www.baidu.com/')
+    my_proxy = proxyGet('http://www.google.com/')
     proxyes = my_proxy.fetch_all()
     print(proxyes)
